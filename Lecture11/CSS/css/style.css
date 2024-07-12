@@ -1,0 +1,62 @@
+/*a{
+    text-decoration: none;
+    color:red;
+}*/
+
+/*Specificity
+
+  id: 100
+  class: 10
+  tag:1
+
+*/
+
+/*110*/
+/*#header.welcome{
+    background: darkorchid;
+}*/
+
+/*100*/
+/*#header{
+    background-color: brown;
+    
+} /*for id*/
+
+/*111*/
+/*header#header.welcome{
+    background: gray;
+}
+
+/*1*/
+/*header{
+    background: lightskyblue;
+    color:white;
+}
+
+/*10*/
+/*.welcome{
+    background: green;
+}
+
+
+.para{
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1px;
+    color: peru;
+} /*for classes*/
+
+/*p{
+    text-decoration: underline;
+    color: royalblue;
+}*/
+
+/* Parent Child in Css*/
+
+p{
+    color:red;
+}
+
+header{
+    color: green;
+}
+
