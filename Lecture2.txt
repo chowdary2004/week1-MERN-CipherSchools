@@ -1,0 +1,21 @@
+git status
+
+git add index.html
+
+git commit -m "initial commit"
+
+git commit -m "second commit"
+
+git log
+
+git commit -m "third commit"
+
+git add style.css
+
+git commit -m "Added style.css"
+
+git log --oneline
+
+git add example.js home.html
+
+git commit -m "Added example.js and home.html"

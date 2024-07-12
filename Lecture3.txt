@@ -1,0 +1,38 @@
+"In this lecture i learnedabout one command:
+
+git checkout"
+
+PS C:\Desktop\Beginners\GIT> git checkout 5a6bf87
+Note: switching to '5a6bf87'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 5a6bf87 second commit
+D       README.md
+
+PS C:\Desktop\Beginners\GIT> git checkout main
+Previous HEAD position was 5a6bf87 second commit
+Switched to branch 'main'
+D       README.md
+Your branch is ahead of 'origin/main' by 5 commits.
+  (use "git push" to publish your local commits)
+PS C:\Desktop\Beginners\GIT> git log --oneline
+fdcf7c2 (HEAD -> main) Added example.js and home.html
+47d6d11 Added style.css
+e58381f third commit
+5a6bf87 second commit
+1efe350 initial commit
+2bca76b (origin/main) first commit

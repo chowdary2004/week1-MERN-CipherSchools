@@ -1,0 +1,50 @@
+This class is about collaborating on projects using GitHub.
+
+**Creating a New Repository Using Commands**
+1. echo "# testing_github >> README.md`: This command creates a new README.md file and adds "# testing_github" to it.
+
+2. git init`: This command initializes a new Git repository.
+
+3. git add README.md`: This command stages the README.md file, preparing it for commit.
+
+4. git commit -m "first commit"`: This command commits the staged changes and provides a message describing the changes.
+
+5. git branch -M main`: This command renames the current branch to 'main'.
+
+6. git remote add origin https://github.com/chowdary2004/testing_github.git`: This command adds a new remote repository named 'origin' at the specified URL.
+
+7. git push -u origin main`: This command pushes the commits in the 'main' branch to the 'origin' remote repository.
+
+
+PS C:\Desktop\Beginners> echo "# testing_github" >> README.md
+PS C:\Desktop\Beginners> git init
+Reinitialized existing Git repository in C:/Desktop/Beginners/.git/   
+PS C:\Desktop\Beginners> git add README.md
+PS C:\Desktop\Beginners> git commit -m "first commit"
+[master (root-commit) 7d4bc03] first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.md
+PS C:\Desktop\Beginners> git branch -M main
+PS C:\Desktop\Beginners> git remote add origin https://github.com/chowdary2004/testing_github.git
+PS C:\Desktop\Beginners> git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 249 bytes | 249.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/chowdary2004/testing_github.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Desktop\Beginners> git add .
+PS C:\Desktop\Beginners> git commit -m "New index.html"
+[main 99d364d] New index.html
+ 1 file changed, 4 insertions(+)
+ create mode 100644 index.html
+PS C:\Desktop\Beginners> git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 318 bytes | 318.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/chowdary2004/testing_github.git
+   7d4bc03..99d364d  main -> main

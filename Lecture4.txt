@@ -1,0 +1,7 @@
+git revert  (revert to some point of time OPEN VI editor)
+
+git reset TRACK_ID --hard/--soft FLAGS 
+
+git checkout -b BRANCH_NAME (create and take to that branch)
+
+git checkout BRANCH_NAME (take to that branch)
